@@ -1,0 +1,88 @@
+html {
+    height: 100vh;
+    font-family: Baloo;
+}
+
+body {
+    padding: 10px;
+    background-image: linear-gradient(#FC6DAB, #5E2BFF);
+    border: 3px dashed black;
+    border-radius: 15px;
+    box-shadow: 2px 2px aquamarine;
+}
+
+#emoji-container {
+    margin: 40px;
+    text-align: center;
+    background-color: #C04CFD;
+    border: 2px solid aquamarine;
+    box-shadow: 0px 5px 5px 5px #FFF;
+    border-radius: 50%;
+    font-size: 40px;
+}
+
+
+#emoji-container span:hover {
+    font-size: 60px;
+    margin: 10px;
+    transform: scale(1.2);
+}
+
+#push-btn,#unshift-btn {
+    background-color: ;
+    background-image: linear-gradient(to bottom right, #80D87F, green)
+    
+}
+
+#shift-btn,#pop-btn {
+    background-color: #E23349;
+    background-image: linear-gradient(to bottom right, red, black)
+}
+
+h1 {
+    letter-spacing: 2px;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+input {
+    margin: 0 auto;
+    display: block;
+    border: none;
+    height: 30px;
+    background: ;
+    border-radius: 6px;
+    text-align: center;
+    
+}
+
+button {
+    font-family: Baloo;
+    letter-spacing: px;
+    background: darkcyan;
+    color: white;
+    border: none;
+    padding: 4px 10px;
+    border-radius: 6px;
+    margin: 0 4px;
+}
+
+button:hover {
+    transform: scale(1.3);
+}
+
+.buttons-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 10px;
+}
+
+#emoji-count, span {
+    margin: auto;
+    text-align: center;
+    justify-items: center;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 20px;
+}
