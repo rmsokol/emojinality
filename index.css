@@ -4,6 +4,8 @@ html {
 }
 
 body {
+    height: 600px;
+    width: 600px;
     padding: 10px;
     background-image: linear-gradient(#FC6DAB, #5E2BFF);
     border: 3px dashed black;
